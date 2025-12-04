@@ -2,7 +2,8 @@
   "name": "instagram-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000"
+    "start": "json-server --host 0.0.0.0 --watch db.json --port 3000"
+
   },
   "dependencies": {
     "json-server": "^0.17.0"
