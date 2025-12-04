@@ -1,0 +1,142 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/posts/john.jpg"
+      },
+      "image": "/posts/sunset.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        { "user": "alice_wonder", "comment": "Wow! Amazing shot! 📸" },
+        { "user": "mark_92", "comment": "Where is this place?" }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+     
+     {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "code_hub",
+        "profile_pic": "/posts/coder.jpeg"
+      },
+      "image": "/posts/coding.jpg",
+      "caption": "Coding Life.... #code_daily",
+      "likes": 120,
+      "comments": [
+        { "user": "akash_wonder", "comment": " Frustrating" },
+        { "user": "mark", "comment": "Where is the server?" }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "emma_styles",
+        "profile_pic": "/posts/emma.jpg"
+      },
+      "image": "/posts/coffe_rain.jpg",
+      "caption": "Coffee + Rain = Perfect day ☕🌧️",
+      "likes": 342,
+      "comments": [
+        { "user": "harry_j", "comment": "I want this!!! 😍" }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+
+     {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "travel_kid",
+        "profile_pic": "/posts/travel_guy.jpg"
+      },
+      "image": "/posts/mountain.jpg",
+      "caption": "Mountains calling ⛰️✨",
+      "likes": 670,
+      "comments": [
+        { "user": "sammy", "comment": "Bro this is sick 🔥" },
+        { "user": "nikhil", "comment": "Dream place!" }
+      ],
+      "timestamp": "2025-02-15T17:45:00Z"
+    }
+  ],
+  "profile": {
+      
+        "id": 101,
+        "username": "aravinth_rk18",
+        "profile_pic": "/posts/profile.jpg"
+      
+  
+},
+"suggestions":[
+  {
+    "id": 101,
+        "username": "code_hub",
+        "profile_pic": "/posts/coder.jpeg"
+  },
+  {
+    
+        "id": 102,
+        "username": "emma_styles",
+        "profile_pic": "/posts/emma.jpg"
+      
+  },{
+    "id": 104,
+        "username": "john_doe",
+        "profile_pic": "/posts/john.jpg"
+  },
+  {
+    "id": 103,
+        "username": "travel_kid",
+        "profile_pic": "/posts/travel_guy.jpg"
+  }
+
+],
+"stories": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/posts/john.jpg"
+
+      },
+      "image":  "/posts/story4.jpg"
+
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "code_hub",
+        "profile_pic": "/posts/coder.jpeg"
+      },
+      "image": "/posts/story2.jpg"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "emma_styles",
+        "profile_pic": "/posts/emma.jpg"
+      },
+      "image": "/posts/story3.jpg"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "travel_kid",
+        "profile_pic": "/posts/travel_guy.jpg"
+      },
+      "image": "/posts/story1.webp"
+    }
+]
+}
